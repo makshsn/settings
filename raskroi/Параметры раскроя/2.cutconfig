@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<RootSettings>
+  <Settings>
+    <Name>Раскрой 5.2022</Name>
+    <UID>FD53C860-0E5C-4BD0-848C-E6923135324B</UID>
+    <IsDefault>N</IsDefault>
+    <RootSettings>
+      <Name>Root</Name>
+      <Caption>Root</Caption>
+      <DrawTreeGroup>Y</DrawTreeGroup>
+      <Cutting>
+        <Name>Cutting</Name>
+        <Caption>Параметры раскроя</Caption>
+        <DrawTreeGroup>Y</DrawTreeGroup>
+        <SawParams>
+          <Name>SawParams</Name>
+          <Caption>Характеристики реза</Caption>
+          <DrawTreeGroup>Y</DrawTreeGroup>
+          <Settings>
+            <FirstCutType>0</FirstCutType>
+            <Saw>4.4</Saw>
+            <NumberOfTurns>5</NumberOfTurns>
+            <MaxCutSize>3000</MaxCutSize>
+            <MinCutSize>0</MinCutSize>
+            <MaxOnePanelSize>3200</MaxOnePanelSize>
+            <MaxCutLength>3200</MaxCutLength>
+          </Settings>
+        </SawParams>
+        <BoardParams>
+          <Name>BoardParams</Name>
+          <Caption>Параметры плиты</Caption>
+          <DrawTreeGroup>Y</DrawTreeGroup>
+          <Settings>
+            <Undercut>
+              <Left>10</Left>
+              <Right>10</Right>
+              <Top>10</Top>
+              <Bottom>10</Bottom>
+            </Undercut>
+            <BoardSelectStrategy>1</BoardSelectStrategy>
+          </Settings>
+        </BoardParams>
+        <CutOffParams>
+          <Name>CutOffParams</Name>
+          <Caption>Параметры обрезков</Caption>
+          <DrawTreeGroup>Y</DrawTreeGroup>
+          <Settings>
+            <Undercut>
+              <Left>20</Left>
+              <Right>20</Right>
+              <Top>20</Top>
+              <Bottom>20</Bottom>
+            </Undercut>
+            <ConsiderCutoffOrient>false</ConsiderCutoffOrient>
+            <CutOffMinLength>400</CutOffMinLength>
+            <CutOffMinWidth>80</CutOffMinWidth>
+            <MinKimUseCutoff>0</MinKimUseCutoff>
+            <CutoffSelectStrategy>0</CutoffSelectStrategy>
+          </Settings>
+        </CutOffParams>
+        <DetailLocate>
+          <Name>DetailLocate</Name>
+          <Caption>Укладка панелей</Caption>
+          <DrawTreeGroup>Y</DrawTreeGroup>
+          <Settings>
+            <TypeUndercut>1</TypeUndercut>
+            <BoardBaseCorner>1</BoardBaseCorner>
+          </Settings>
+        </DetailLocate>
+        <CutTargetParams>
+          <Name>CutTargetParams</Name>
+          <Caption>Критерий выбора раскроя</Caption>
+          <DrawTreeGroup>Y</DrawTreeGroup>
+          <Settings>
+            <CutTargetParams>
+              <Value0>0</Value0>
+              <Value1>1</Value1>
+              <Value2>2</Value2>
+              <Value3>3</Value3>
+              <Value4>4</Value4>
+              <Value5>5</Value5>
+              <Value6>6</Value6>
+            </CutTargetParams>
+          </Settings>
+        </CutTargetParams>
+        <SortParams>
+          <Name>SortParams</Name>
+          <Caption>Параметры сортировки</Caption>
+          <DrawTreeGroup>Y</DrawTreeGroup>
+          <FirstLevel>
+            <Name>FirstLevel</Name>
+            <Caption>Первый уровень</Caption>
+            <DrawTreeGroup>Y</DrawTreeGroup>
+            <Settings>
+              <SortOrder>
+                <Value0>0</Value0>
+                <Value2>2</Value2>
+                <Value4>4</Value4>
+              </SortOrder>
+              <CutOffWasteInBegin>false</CutOffWasteInBegin>
+              <NarrowStripInMiddle>false</NarrowStripInMiddle>
+              <MaxSizeNarrowStrip>150</MaxSizeNarrowStrip>
+              <BigStripIsLast>false</BigStripIsLast>
+              <BigStripType>1</BigStripType>
+            </Settings>
+          </FirstLevel>
+          <SecondLevel>
+            <Name>SecondLevel</Name>
+            <Caption>Второй уровень</Caption>
+            <DrawTreeGroup>Y</DrawTreeGroup>
+            <Settings>
+              <SortOrder>
+                <Value0>0</Value0>
+                <Value2>2</Value2>
+                <Value4>4</Value4>
+              </SortOrder>
+              <CutOffWasteInBegin>false</CutOffWasteInBegin>
+              <NarrowStripInMiddle>false</NarrowStripInMiddle>
+              <MaxSizeNarrowStrip>150</MaxSizeNarrowStrip>
+              <BigStripIsLast>false</BigStripIsLast>
+              <BigStripType>1</BigStripType>
+            </Settings>
+          </SecondLevel>
+          <SubLevels>
+            <Name>SubLevels</Name>
+            <Caption>Последующие уровни</Caption>
+            <DrawTreeGroup>Y</DrawTreeGroup>
+            <Settings>
+              <SortOrder>
+                <Value0>0</Value0>
+                <Value2>2</Value2>
+                <Value4>4</Value4>
+              </SortOrder>
+              <CutOffWasteInBegin>false</CutOffWasteInBegin>
+              <NarrowStripInMiddle>false</NarrowStripInMiddle>
+              <MaxSizeNarrowStrip>150</MaxSizeNarrowStrip>
+              <BigStripIsLast>false</BigStripIsLast>
+              <BigStripType>1</BigStripType>
+            </Settings>
+          </SubLevels>
+          <Settings/>
+        </SortParams>
+        <CuttingSawingCenter>
+          <Name>CuttingSawingCenter</Name>
+          <Caption>Пильный центр</Caption>
+          <DrawTreeGroup>Y</DrawTreeGroup>
+          <Settings>
+            <NumberPlatesPackage>1</NumberPlatesPackage>
+            <MaxPreCuttingSize>0</MaxPreCuttingSize>
+            <UseNumberPlatesPackage>false</UseNumberPlatesPackage>
+          </Settings>
+        </CuttingSawingCenter>
+        <Stacking>
+          <Name>Stacking</Name>
+          <Caption>Штабелирование</Caption>
+          <DrawTreeGroup>Y</DrawTreeGroup>
+          <Settings>
+            <StackingType>0</StackingType>
+          </Settings>
+        </Stacking>
+        <NarrowDetailsJoining>
+          <Name>NarrowDetailsJoining</Name>
+          <Caption>Сращивание узких панелей</Caption>
+          <DrawTreeGroup>Y</DrawTreeGroup>
+          <Settings>
+            <JoiningDetailsWithButt>true</JoiningDetailsWithButt>
+            <JoiningDetailsWithoutButt>false</JoiningDetailsWithoutButt>
+            <ValueDetailsJoining>80</ValueDetailsJoining>
+            <ExtraClearance>50</ExtraClearance>
+            <TypeJoining>0</TypeJoining>
+            <JoiningText>упилить до</JoiningText>
+          </Settings>
+        </NarrowDetailsJoining>
+        <AlgorithmParams>
+          <Name>AlgorithmParams</Name>
+          <Caption>Параметры алгоритма раскроя</Caption>
+          <DrawTreeGroup>Y</DrawTreeGroup>
+          <Settings>
+            <CutAlgorithmType>0</CutAlgorithmType>
+            <PercentSizeSeviation>.7</PercentSizeSeviation>
+            <PercentSizeDevationStep>.03</PercentSizeDevationStep>
+            <CutCountLinearMin>20</CutCountLinearMin>
+            <CutCountLinearMax>40</CutCountLinearMax>
+            <CutCountLinearDelta>10</CutCountLinearDelta>
+            <KaskevichAlgorithm>999</KaskevichAlgorithm>
+            <MaxTimeCuttingOneBoard>10</MaxTimeCuttingOneBoard>
+            <SAAccuracy>.999999</SAAccuracy>
+            <CanChangeCut>false</CanChangeCut>
+          </Settings>
+        </AlgorithmParams>
+        <PostProcParams>
+          <Name>PostProcParams</Name>
+          <Caption>Выбор постпроцессора</Caption>
+          <DrawTreeGroup>Y</DrawTreeGroup>
+          <Settings>
+            <TypePostProc>Nanxing</TypePostProc>
+          </Settings>
+        </PostProcParams>
+        <Settings/>
+      </Cutting>
+      <Settings/>
+    </RootSettings>
+  </Settings>
+</RootSettings>
