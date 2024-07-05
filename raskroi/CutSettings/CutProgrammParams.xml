@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<RootSettings>
+  <Active>Параметры программы</Active>
+  <LoadOldCfg>N</LoadOldCfg>
+  <Settings>
+    <Setting0>
+      <Name>Параметры программы</Name>
+      <UID>4E699340-84DF-463D-81CB-EE34338536F1</UID>
+      <IsDefault>N</IsDefault>
+      <RootSettings>
+        <Name>Root</Name>
+        <Caption>Root</Caption>
+        <DrawTreeGroup>Y</DrawTreeGroup>
+        <InterfaceSettings>
+          <Name>InterfaceSettings</Name>
+          <Caption>Параметры интерфейса</Caption>
+          <DrawTreeGroup>Y</DrawTreeGroup>
+          <DetailList>
+            <Name>DetailList</Name>
+            <Caption>Внешний вид списка изделий</Caption>
+            <DrawTreeGroup>Y</DrawTreeGroup>
+            <Settings>
+              <ListShowColumn>
+                <Value8>8</Value8>
+                <Value12>12</Value12>
+                <Value13>13</Value13>
+              </ListShowColumn>
+            </Settings>
+          </DetailList>
+          <ShowSettings>
+            <Name>ShowSettings</Name>
+            <Caption>Отображение параметров раскроя</Caption>
+            <DrawTreeGroup>Y</DrawTreeGroup>
+            <Settings>
+              <ShowSettings>
+                <Value0>
+                  <Name>Root/Cutting/SawParams/FirstCutType</Name>
+                  <Caption>Первый рез</Caption>
+                </Value0>
+                <Value1>
+                  <Name>Root/Cutting/SawParams/Saw</Name>
+                  <Caption>Ширина диска пилы</Caption>
+                </Value1>
+                <Value2>
+                  <Name>Root/Cutting/BoardParams/Undercut</Name>
+                  <Caption>Отступы от края плиты</Caption>
+                </Value2>
+              </ShowSettings>
+            </Settings>
+          </ShowSettings>
+          <UserProperty>
+            <Name>UserProperty</Name>
+            <Caption>Параметры пользовательских свойств</Caption>
+            <DrawTreeGroup>Y</DrawTreeGroup>
+            <Settings>
+              <CutSetUserProperty>
+                <Value0>
+                  <Name>Оригинальный материал</Name>
+                  <ShowInDetailsList>N</ShowInDetailsList>
+                  <ShowInLDWDetailsList>Y</ShowInLDWDetailsList>
+                  <ShowInReceipt>Y</ShowInReceipt>
+                </Value0>
+                <Value1>
+                  <Name>Облицовка пласти верх 1</Name>
+                  <ShowInDetailsList>N</ShowInDetailsList>
+                  <ShowInLDWDetailsList>Y</ShowInLDWDetailsList>
+                  <ShowInReceipt>Y</ShowInReceipt>
+                </Value1>
+                <Value2>
+                  <Name>Облицовка пласти низ 1</Name>
+                  <ShowInDetailsList>N</ShowInDetailsList>
+                  <ShowInLDWDetailsList>Y</ShowInLDWDetailsList>
+                  <ShowInReceipt>Y</ShowInReceipt>
+                </Value2>
+              </CutSetUserProperty>
+            </Settings>
+          </UserProperty>
+          <ContourSettings>
+            <Name>ContourSettings</Name>
+            <Caption>Параметры редактора карт раскроя</Caption>
+            <DrawTreeGroup>Y</DrawTreeGroup>
+            <Settings>
+              <DrawContour>true</DrawContour>
+              <SaveUndoRedo>true</SaveUndoRedo>
+            </Settings>
+          </ContourSettings>
+          <ChangeActionsType>
+            <Name>ChangeActionsType</Name>
+            <Caption>Параметры выбора действия</Caption>
+            <DrawTreeGroup>Y</DrawTreeGroup>
+            <Settings>
+              <DocPrint>0</DocPrint>
+              <BirkaPrint>0</BirkaPrint>
+              <ReportPrint>0</ReportPrint>
+              <ApplyCutting>0</ApplyCutting>
+            </Settings>
+          </ChangeActionsType>
+          <Settings/>
+        </InterfaceSettings>
+        <Settings/>
+      </RootSettings>
+    </Setting0>
+  </Settings>
+</RootSettings>

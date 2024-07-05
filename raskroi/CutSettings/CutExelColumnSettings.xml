@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ColumnSettings>
+  <Setting1 Name="123" Activate="Да" ReadStr="false" PosStr="1" IsFinishSize="false">
+    <Column Name="cecPosition" ColumnNumber="1"/>
+    <Column Name="cecComment" ColumnNumber="2"/>
+    <Column Name="cecLength" ColumnNumber="3"/>
+    <Column Name="cecWidth" ColumnNumber="4"/>
+    <Column Name="cecCount" ColumnNumber="5"/>
+    <Column Name="cecOrient" ColumnNumber="6"/>
+    <Column Name="cecNameL1" ColumnNumber="7"/>
+    <Column Name="cecDesignL1" ColumnNumber="8"/>
+    <Column Name="cecThicknessL1" ColumnNumber="9"/>
+    <Column Name="cecNameL2" ColumnNumber="10"/>
+    <Column Name="cecDesignL2" ColumnNumber="11"/>
+    <Column Name="cecThicknessL2" ColumnNumber="12"/>
+    <Column Name="cecNameW1" ColumnNumber="13"/>
+    <Column Name="cecDesignW1" ColumnNumber="14"/>
+    <Column Name="cecThicknessW1" ColumnNumber="15"/>
+    <Column Name="cecNameW2" ColumnNumber="16"/>
+    <Column Name="cecDesignW2" ColumnNumber="17"/>
+    <Column Name="cecThicknessW2" ColumnNumber="18"/>
+    <Column Name="cecGroove" ColumnNumber="19"/>
+  </Setting1>
+</ColumnSettings>

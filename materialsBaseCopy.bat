@@ -1,0 +1,1 @@
+xcopy /y \\USER-PC\Users\User\Documents\Bazis\Settings\MebeliparkFabric.FDB C:\Users\User\Documents\Bazis\Settings\raskroi

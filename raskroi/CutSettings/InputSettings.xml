@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<RootSettings>
+  <Settings>
+    <Setting0>
+      <Name>Конфигурация по умолчанию</Name>
+      <UID>725CA599-295F-4FDF-A2ED-78EFDA6B4648</UID>
+      <IsDefault>Y</IsDefault>
+      <RootSettings>
+        <Name>Root</Name>
+        <Caption>Root</Caption>
+        <DrawTreeGroup>Y</DrawTreeGroup>
+        <InputInfo>
+          <Name>InputInfo</Name>
+          <Caption>Параметры чтения</Caption>
+          <DrawTreeGroup>Y</DrawTreeGroup>
+          <PanelDesignation>
+            <Name>PanelDesignation</Name>
+            <Caption>Обозначения панелей</Caption>
+            <DrawTreeGroup>Y</DrawTreeGroup>
+            <Settings>
+              <FormatArtPos>%P</FormatArtPos>
+              <IsFixArtPos>true</IsFixArtPos>
+              <CountSymbolInArtPos>3</CountSymbolInArtPos>
+              <EmptySympbolInArtPos>0</EmptySympbolInArtPos>
+              <SymbolSeparator>.</SymbolSeparator>
+              <LengthArtPosInProject>99</LengthArtPosInProject>
+            </Settings>
+          </PanelDesignation>
+          <AllowanceParams>
+            <Name>AllowanceParams</Name>
+            <Caption>Параметры припусков</Caption>
+            <DrawTreeGroup>Y</DrawTreeGroup>
+            <Settings>
+              <RoundCutSize>.5</RoundCutSize>
+              <AllowancePlasticPanel>15</AllowancePlasticPanel>
+              <IsAddAllowancePlastic>true</IsAddAllowancePlastic>
+              <AllowanceCutType>1</AllowanceCutType>
+              <RoughAllowance>
+                <Left>15</Left>
+                <Right>15</Right>
+                <Top>15</Top>
+                <Bottom>15</Bottom>
+              </RoughAllowance>
+            </Settings>
+          </AllowanceParams>
+          <AllowanceContourParams>
+            <Name>AllowanceContourParams</Name>
+            <Caption>Параметры припусков на контур</Caption>
+            <DrawTreeGroup>Y</DrawTreeGroup>
+            <Settings>
+              <AllowanceContourSize>0</AllowanceContourSize>
+              <AllowanceContourType>
+                <Value0>0</Value0>
+                <Value1>1</Value1>
+                <Value2>2</Value2>
+              </AllowanceContourType>
+              <AllowanceAddInContourOther>false</AllowanceAddInContourOther>
+            </Settings>
+          </AllowanceContourParams>
+          <AllowanceBentPanel>
+            <Name>AllowanceBentPanel</Name>
+            <Caption>Припуск на сторону для гнутой панели</Caption>
+            <DrawTreeGroup>Y</DrawTreeGroup>
+            <Settings>
+              <AlongTrajectory>0</AlongTrajectory>
+              <AcrossTrajectory>0</AcrossTrajectory>
+            </Settings>
+          </AllowanceBentPanel>
+          <MaterialsInputInfo>
+            <Name>MaterialsInputInfo</Name>
+            <Caption>Параметры чтения материалов</Caption>
+            <DrawTreeGroup>Y</DrawTreeGroup>
+            <Settings>
+              <CheckDetailsPosition>true</CheckDetailsPosition>
+              <ExcludeMaterialByThickness>0</ExcludeMaterialByThickness>
+              <ExcludeArealMaterialByThickness>0</ExcludeArealMaterialByThickness>
+              <FrontSideCriterion>
+                <Value0>0</Value0>
+                <Value1>1</Value1>
+                <Value2>2</Value2>
+                <Value3>3</Value3>
+                <Value5>5</Value5>
+                <Value7>7</Value7>
+                <Value4>4</Value4>
+                <Value6>6</Value6>
+                <Value8>8</Value8>
+                <Value9>9</Value9>
+              </FrontSideCriterion>
+              <MaterialsMask/>
+            </Settings>
+          </MaterialsInputInfo>
+          <GroovesInputInfo>
+            <Name>GroovesInputInfo</Name>
+            <Caption>Параметры загрузки пазов</Caption>
+            <DrawTreeGroup>Y</DrawTreeGroup>
+            <Settings>
+              <GroovesMask/>
+            </Settings>
+          </GroovesInputInfo>
+          <Settings/>
+        </InputInfo>
+        <Settings/>
+      </RootSettings>
+    </Setting0>
+  </Settings>
+</RootSettings>
